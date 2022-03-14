@@ -10,10 +10,16 @@
         "eloquent",
         "accounting"
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ashleyhood/xero-php"
+        }
+    ],
     "require": {
         "php":">=7.1",
         "laravel/framework": "^5.1||^6.0||^7.0||^8.0||^9.0",
-        "calcinai/xero-php": "^2.5.0"
+        "calcinai/xero-php": "dev-patch"
     },
     "autoload": {
         "psr-4": {
